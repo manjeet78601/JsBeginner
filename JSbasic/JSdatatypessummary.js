@@ -35,3 +35,28 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+ const numbers = [1,2,3,4,5,]
+ console.log(numbers)
+
+ //++++++++++++++++++++++++
+
+ // Stack (Primitives), Heap(Non- Primitive)
+
+ let myYoutubename = "manjeetkadevroom"
+ let anothername ="manjeetkadevroom"
+ anothername= "welcome to my channel"
+
+
+ console.log(myYoutubename);
+ console.log(anothername);
+ let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+
+ }
+ let userTwo = userOne
+ userTwo.email = "manjeet@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
