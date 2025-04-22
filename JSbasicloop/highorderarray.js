@@ -144,4 +144,10 @@ const books=[
 
 let userBooks =books.filter((bk)=>bk.genre==='History')
  userBooks = books.filter((bk)=>{ return bk.publish>=1985})
-console.log(userBooks)
+//console.log(userBooks)
+// duplicate value of javascript using filter() and indexof()
+
+ const arr1=[1,2,3,4,2,5,1,6,3];
+ const duplicate = arr1.filter((item,index)=>arr1.indexOf(item)!==index);
+ const uniqueDuplicates= [...new Set(duplicate)];
+ console.log(uniqueDuplicates);
