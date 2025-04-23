@@ -142,9 +142,12 @@ const books=[
 {title:'Bookseven', genre: 'History',publish:1987, edition:2010},
 ]
 
+
+
 let userBooks =books.filter((bk)=>bk.genre==='History')
- userBooks = books.filter((bk)=>{ return bk.publish>=1985})
-//console.log(userBooks)
+ userBooks = books.filter((bk)=>
+    { return bk.publish>=1985 && bk.genre === "History"})
+console.log(userBooks)
 // duplicate value of javascript using filter() and indexof()
 
  const arr1=[1,2,3,4,2,5,1,6,3];

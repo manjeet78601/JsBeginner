@@ -1,6 +1,6 @@
 //if
 const isUserloggedln=true
- // we can check temprature is less & morethan 50 and value is executed 
+ // we can check temprature is less & more than 50 and value is executed 
 const temprature= 35
 if (temprature <50){
     console.log("less than 50");

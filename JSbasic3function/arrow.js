@@ -23,9 +23,8 @@ function codewithmanjeet(){
 //     let username = "Manjeet"  //agar humne let username declare kiya to this.username undefine ayega
 //     console.log(this.username);
 // }
-// codewithmanjeet();
-
-// const codewithmanjeet=()=>{
+//     codewithmanjeet();
+//     const codewithmanjeet=()=>{
 //     let username= "Manjeet"
 //     console.log(this.username);
 // }
